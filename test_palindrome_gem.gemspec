@@ -8,11 +8,11 @@ Gem::Specification.new do |spec|
   spec.authors = ["Labern"]
   spec.email = ["lukelabern@gmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "Adds palindrome? functionality to strings and integers using mixins."
+  spec.description = "Allows for \"Racecar\".palindrome? and 1234321.palindrome?, both returning true."
+  spec.homepage = "https://github.com/Labern/test_palindrome_gem"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 3.0.0"
+  spec.required_ruby_version = ">= 3.0"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 

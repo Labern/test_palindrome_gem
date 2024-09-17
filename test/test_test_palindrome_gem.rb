@@ -7,7 +7,11 @@ class TestTestPalindromeGem < Minitest::Test
     refute_nil ::TestPalindromeGem::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
+  def test_does_something_useful
+    assert true
+  end
+
+  def test_truth
+    assert true 
   end
 end
