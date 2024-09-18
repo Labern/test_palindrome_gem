@@ -29,7 +29,9 @@ class TestTestPalindromeGem < Minitest::Test
   end
 
   def test_private_methods_are_private
-    Minitest::Skip
+    assert_raises NoMethodError do
+      123.processed_contents
+    end
   end
 
   def test_integers

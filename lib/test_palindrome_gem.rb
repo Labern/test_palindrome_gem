@@ -8,7 +8,6 @@ module TestPalindromeGem
     processed_content == processed_content.reverse
   end
 
-  # Return only the letters
   def letters
     self.to_s.scan(/[a-z\d]/i).join
   end
