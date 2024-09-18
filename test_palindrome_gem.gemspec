@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email = ["lukelabern@gmail.com"]
 
   spec.summary = "Adds palindrome? functionality to strings."
-  spec.description = "Allows for \"Racecar\".palindrome? returning true."
+  spec.description = "Allows for \"Racecar\".palindrome?, returning true. Works for strings of upper, lower, mixed, and punctuated contents."
   spec.homepage = "https://github.com/Labern/test_palindrome_gem"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0"
