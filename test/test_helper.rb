@@ -8,3 +8,5 @@ require "minitest/autorun"
 # Adds colour
 require "minitest/reporters"
 Minitest::Reporters.use!
+
+require "minitest/pride"

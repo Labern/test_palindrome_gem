@@ -16,6 +16,12 @@ If bundler is not being used to manage dependencies, install the gem by executin
 gem install test_palindrome_gem
 ```
 
+Then add to Gemfile:
+
+```bash
+gem "test_palindrome_gem"
+```
+
 ## Usage
 
 You can access <code>.palindrome?</code> on strings and integers.
