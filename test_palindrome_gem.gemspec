@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ["Labern"]
   spec.email = ["lukelabern@gmail.com"]
 
-  spec.summary = "Adds palindrome? functionality to strings."
-  spec.description = "Allows for \"Racecar\".palindrome?, returning true. Works for strings of upper, lower, mixed, and punctuated contents."
+  spec.summary = "Adds palindrome? functionality to strings and integers."
+  spec.description = "Allows for \"Racecar\".palindrome? for strings, returning true. Works for strings of upper, lower, mixed, and punctuated contents. Also works for integers, so that 1234321.palindrome? returns true. Uses mixins."
   spec.homepage = "https://github.com/Labern/test_palindrome_gem"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0"

@@ -2,15 +2,15 @@
 
 require_relative "test_palindrome_gem/version"
 
-class String 
 
+module TestPalindromeGem
   def palindrome?
     processed_content == processed_content.reverse
   end
 
   # Return only the letters
   def letters
-    self.scan(/[a-z]/i).join
+    self.to_s.scan(/[a-z\d]/i).join
   end
 
   private 
@@ -18,4 +18,12 @@ class String
   def processed_content
     self.letters.downcase
   end
+end
+
+class String 
+  include TestPalindromeGem
+end
+
+class Integer
+  include TestPalindromeGem
 end

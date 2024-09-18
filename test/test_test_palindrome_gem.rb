@@ -31,4 +31,12 @@ class TestTestPalindromeGem < Minitest::Test
   def test_private_methods_are_private
     Minitest::Skip
   end
+
+  def test_integers
+    assert 1234321.palindrome?
+  end
+
+  def test_integers_not
+    refute 123.palindrome?
+  end
 end
