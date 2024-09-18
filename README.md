@@ -1,4 +1,4 @@
-[![Gem Version](https://badge.fury.io/rb/test_palindrome_gem.svg)](https://badge.fury.io/rb/test_palindrome_gem.svg)
+[![Gem Version](https://badge.fury.io/rb/test_palindrome_gem.svg)](https://badge.fury.io/rb/test_palindrome_gem)
 
 # TestPalindromeGem
 
