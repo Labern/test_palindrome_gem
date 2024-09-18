@@ -1,6 +1,8 @@
+[![Gem Version](https://badge.fury.io/rb/test_palindrome_gem.svg)](https://badge.fury.io/rb/test_palindrome_gem)
+
 # TestPalindromeGem
 
-Tests for palindromes, as in <code>"Yes".palindrome?</code>.
+Tests for palindromes, as in <code>"Yes".palindrome?</code>. Works for strings and integers.
 
 ## Installation
 
