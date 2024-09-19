@@ -41,4 +41,8 @@ class TestTestPalindromeGem < Minitest::Test
   def test_integers_not
     refute 123.palindrome?
   end
+
+  def test_empty_palindrome
+    refute "".palindrome?
+  end
 end
