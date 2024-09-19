@@ -5,7 +5,11 @@ require_relative "test_palindrome_gem/version"
 
 module TestPalindromeGem
   def palindrome?
-    processed_content == processed_content.reverse
+    if processed_content.empty?
+      false
+    else
+      processed_content == processed_content.reverse 
+    end
   end
 
   def letters
